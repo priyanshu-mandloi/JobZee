@@ -26,7 +26,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://job-zee-project-api.vercel.app/api/v1/user/getuser",
+          "https://jobzee-backend.onrender.com/api/v1/user/getuser",
           {
             withCredentials: true,
           }

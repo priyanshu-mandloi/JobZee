@@ -16,7 +16,7 @@ const JobDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`https://job-zee-project-api.vercel.app/api/v1/job/${id}`, {
+      .get(`https://jobzee-backend.onrender.com/api/v1/job/${id}`, {
         withCredentials: true,
       })
       .then((res) => {

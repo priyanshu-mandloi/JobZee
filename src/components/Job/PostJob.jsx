@@ -35,7 +35,7 @@ const PostJob = () => {
     }
     await axios
       .post(
-        "https://job-zee-project-api.vercel.app/api/v1/job/post",
+        "https://jobzee-backend.onrender.com/api/v1/job/post",
         fixedSalary.length >= 4
           ? {
               title,

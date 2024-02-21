@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://job-zee-project-api.vercel.app/api/v1/user/login",
+        "https://jobzee-backend.onrender.com/api/v1/user/login",
         { email, password, role },
         {
           headers: {
